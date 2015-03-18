@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+	<script src="../dist/humanizeMidiMessageEvent.js"></script>
+	<script>
+		navigator.requestMIDIAccess()
+		.then(function (midiAccess) {
+			midiAccess.inputs.forEach(function (port, key) {
+				port.onmidimessage = function (event) {
+					console.log(event.data);
+					console.log(humanizeMidiMessageEvent(event));
+				}
+			});
+		})
+	</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "humanizeMidiMessageEvent",
+  "version": "1.0.0",
+  "description": "Make MIDIMessageEvent readable by humans.",
+  "main": "index.js",
+  "author": "Danny Fritz <dannyfritz@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "MIDI",
+    "MIDIMessageEvent"
+  ],
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "browserify": "^9.0.3",
+    "del": "^1.1.1",
+    "eslint": "^0.17.1",
+    "gulp": "^3.8.11",
+    "gulp-batch": "^1.0.5",
+    "gulp-eslint": "^0.7.0",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-util": "^3.0.4",
+    "gulp-watch": "^4.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
