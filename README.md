@@ -8,7 +8,7 @@ is how your browser communicates signals from your MIDI devices.
 The event contains 3 bytes that correspond to various things in [this table](http://www.midi.org/techspecs/midimessages.php)
 
 That table isn't very readable by people like me so this library makes it
-readable by people like me.
+readable for people like me.
 
 ## Installation
 
