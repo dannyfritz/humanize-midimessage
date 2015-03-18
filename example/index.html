@@ -3,6 +3,9 @@
 <head>
 	<script src="../dist/humanizeMidiMessageEvent.js"></script>
 	<script>
+		if (typeof navigator.requestMIDIAccess !== 'function') {
+			throw new Error('Browser does not support MIDI controllers.');
+		}
 		navigator.requestMIDIAccess()
 		.then(function (midiAccess) {
 			midiAccess.inputs.forEach(function (port, key) {
@@ -15,5 +18,6 @@
 	</script>
 </head>
 <body>
+	Open your console!
 </body>
 </html>
