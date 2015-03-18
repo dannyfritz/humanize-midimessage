@@ -1,3 +1,6 @@
+[![MIT](https://img.shields.io/npm/l/humanize-midimessage.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/humanize-midimessage.svg?style=flat-square)](https://www.npmjs.com/package/humanize-midimessage)
+
 # humanize-midimessage
 
 [MIDIMessageEvent](http://www.w3.org/TR/webmidi/#midimessageevent-interface)
