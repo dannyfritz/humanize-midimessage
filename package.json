@@ -1,6 +1,6 @@
 {
   "name": "humanize-midimessage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Make MIDIMessageEvent readable by humans.",
   "main": "index.js",
   "author": "Danny Fritz <dannyfritz@gmail.com>",
