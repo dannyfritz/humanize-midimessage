@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<script src="../dist/humanizeMidiMessageEvent.js"></script>
+	<script src="../dist/humanizeMidiMessage.js"></script>
 	<script>
 		if (typeof navigator.requestMIDIAccess !== 'function') {
 			throw new Error('Browser does not support MIDI controllers.');
@@ -11,7 +11,7 @@
 			midiAccess.inputs.forEach(function (port, key) {
 				port.onmidimessage = function (event) {
 					console.log(event.data);
-					console.log(humanizeMidiMessageEvent(event));
+					console.log(humanizeMidiMessage(event));
 				}
 			});
 		})

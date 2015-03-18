@@ -1,1 +1,1 @@
-module.exports = require('./src/humanizeMidiMessageEvent.js');
+module.exports = require('./src/humanizeMidiMessage.js');
