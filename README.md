@@ -46,6 +46,10 @@ and returns a humanized object with this shape:
 };
 ```
 
+## Example
+
+[example](https://rawgit.com/dannyfritz/humanize-midimessage/master/example/index.html)
+
 ## Browser Support
 
 ### Chrome
