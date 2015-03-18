@@ -1,4 +1,4 @@
-# humanizeMidiMessageEvent
+# humanize-midimessage
 
 [MIDIMessageEvent](http://www.w3.org/TR/webmidi/#midimessageevent-interface)
 is how your browser communicates signals from your MIDI devices.

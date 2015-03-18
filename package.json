@@ -1,5 +1,5 @@
 {
-  "name": "humanizeMidiMessageEvent",
+  "name": "humanize-midimessage",
   "version": "1.0.1",
   "description": "Make MIDIMessageEvent readable by humans.",
   "main": "index.js",
