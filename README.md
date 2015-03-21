@@ -58,7 +58,7 @@ and returns a humanized object with this shape:
 ### Chrome
 [Status](https://www.chromestatus.com/feature/4923613069180928)
 
-Hidden behind the *Enable Web MIDI API* (*#enable-web-midi*) flag in `chrome://flags`.
+Hidden behind the *Enable Web MIDI API* (*#enable-web-midi*) flag in `chrome://flags/#enable-web-midi`.
 
 ### Firefox
 [Status](https://bugzilla.mozilla.org/show_bug.cgi?id=836897)
