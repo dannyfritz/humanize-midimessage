@@ -10,6 +10,17 @@ function midiEventType (data) {
 	if (data[0] >= 144 && data[0] <= 159) {
 		return 'Note On';
 	}
+	if (data[0] === 185) {
+		if (data[1] === 11) {
+			return 'Expression';
+		}
+		if (data[1] === 64) {
+			return 'Sustain';
+		}
+	}
+	if (data[0] === 185 && data[1] === 11) {
+		return 'Expression';
+	}
 }
 
 function getVelocity (data) {
